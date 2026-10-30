@@ -1,0 +1,249 @@
+{
+  "name": "Viewloom",
+  "version": "0.5.3",
+  "license": "MIT",
+  "copyright_holder": "Bill's Workbench",
+  "prepared_date": "2026-10-30",
+  "validation": {
+    "unit_checks": 21,
+    "synthetic_interface_check": "passed on Apple Silicon macOS",
+    "wheel_build": "passed; SVG and MIT license present",
+    "windows": "not run; CI workflow included",
+    "application_source": "matches the working 0.5.3 source"
+  },
+  "excluded": [
+    "photographs",
+    "local Python environment",
+    "personal projects",
+    "generated reports/screenshots",
+    "dependency binaries"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "6ea444e789592775255af54847717377027d02518d110730db6f898ca0e57051",
+      "bytes": 143
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "988648cdc0833cc953049e43a50a61e64afe05f81176490e4d8296debc5da99f",
+      "bytes": 519
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "840b61e5d893c62579b7e6d17cf2670ebd6ad2e434cadb4ad7d4a77e450da6b8",
+      "bytes": 241
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "sha256": "b06062a1fa874012c3c86b51b05109f8597fc6e6212f1bad9377bebb6cadaf73",
+      "bytes": 253
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "sha256": "0e60dc6398c1aac326dd7bb101f20b2418e8e28ee026919cbf840bd3fea6d496",
+      "bytes": 801
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "34ac72d31d6b9689ca8f89435da5373f32cf305dec038aa1944113f421af4be7",
+      "bytes": 598
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ea714582c5095db2b05b755b600ace90bf899c7c6ddb3979628e0117a3d1f47c",
+      "bytes": 2295
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "9c17515d65a5c3bac59042ea1529a3ea3dae92ff9550ddf6a1a65ea20bf8261b",
+      "bytes": 1710
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "87f79e84a7e685d7cca4f7a39f9cb0bde613a140d26bbde9da75a34935ddca1f",
+      "bytes": 1073
+    },
+    {
+      "path": "Launch Viewloom.cmd",
+      "sha256": "fcdfcc8b8b3ba2b605116aecb290a63e823578aad2c4731f97fda50998a72cf5",
+      "bytes": 219
+    },
+    {
+      "path": "Launch Viewloom.command",
+      "sha256": "f67220d1e58dd363dca48b80273dac686523f34a7e594fc04b0592c13ae821d0",
+      "bytes": 243
+    },
+    {
+      "path": "README.md",
+      "sha256": "e490e5c13b39e273fdb1fc6585b7d7636e6a44421eb384ef50324fd7402facc5",
+      "bytes": 4682
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "79be30335ca23a0084d4fd3efcba66cf1efd89c85e1cf50572a09ef3719fe06e",
+      "bytes": 1232
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "2fbefcbb2859387f4964aa8529d48277f8f77a9ca1e1a4d072614b4f86c2c932",
+      "bytes": 1190
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "c5f97e07439551471018a0e4ff800d8b9bcc65cc4a8f63e1d6de6f59fee98b54",
+      "bytes": 4821
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "sha256": "55461109a879dc2ef92ff3ffdef94912e2756c14ac93a01297a266f1cd0749aa",
+      "bytes": 3917
+    },
+    {
+      "path": "docs/GITHUB_UPLOAD.md",
+      "sha256": "21e0febcda6221dbf6477b7cd37f2b7d7f3909e127288195346187eda15936bd",
+      "bytes": 2286
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "sha256": "da87e3e693e1e5968d53e9f4da75349140a52a8967058e8570bdc4fb6fec940e",
+      "bytes": 11474
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3ad52d227c0e8a4fa5c56b04e1f0940dad1021b84d5d61725f65af75383e6ffa",
+      "bytes": 626
+    },
+    {
+      "path": "requirements-macos-arm64.txt",
+      "sha256": "ea39d158106a9e485f3d8fea23d97a06a776e53131e7c2a404f9301c1605c9eb",
+      "bytes": 234
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "9270f6a45595c36947ea0a1095a630796988f9adfffbbadde4a79de62e5ea1d8",
+      "bytes": 81
+    },
+    {
+      "path": "tests/check_alignment_ui.py",
+      "sha256": "fc2967f042a4cdea635b40590efdab3f62b2b6eee43e5f2ad474a7e8c37ff6e7",
+      "bytes": 10876
+    },
+    {
+      "path": "tests/check_composite_workspace.py",
+      "sha256": "4f55e6e50ad321414a07538a9e6c6a87ac240e65a8071c13c995b5c8f1d3bc16",
+      "bytes": 10989
+    },
+    {
+      "path": "tests/check_develop_workspace.py",
+      "sha256": "669a5c14e6bb6d715ef6c382497171202ccdc204842003134c4299bdf9d58e9d",
+      "bytes": 8543
+    },
+    {
+      "path": "tests/check_workspace.py",
+      "sha256": "002460a092bf77c3ec3d33e075f9da21f1f147fb83a4736e77d93d5556b477a7",
+      "bytes": 4554
+    },
+    {
+      "path": "tests/test_alignment.py",
+      "sha256": "b2a99c53e4d0a2fa12f2adeb22b7e22044642f075afb5c5bd3d80a1e49bd9d0b",
+      "bytes": 1571
+    },
+    {
+      "path": "tests/test_composite.py",
+      "sha256": "14e15d99f53a48496edb8013a323e93a68a250dbfa7ae2e856ea4be77aafea69",
+      "bytes": 8690
+    },
+    {
+      "path": "tests/test_development.py",
+      "sha256": "52be4d546c1a9d111f60c3befc948a6abe705791d9f2867c22ecdc9ebfc5f099",
+      "bytes": 3041
+    },
+    {
+      "path": "tests/test_project.py",
+      "sha256": "139220deb5dc0e45b8fbd7b08b23ad31407de038742fd2af936b99c9ccdb8460",
+      "bytes": 3571
+    },
+    {
+      "path": "viewloom/__init__.py",
+      "sha256": "bb98115fd0757e09ccd385230375a74d51f76fa7cf1b00c4f5505e36cf6bc966",
+      "bytes": 73
+    },
+    {
+      "path": "viewloom/__main__.py",
+      "sha256": "a67c172046323b0efcafe92cb83abc266d5dd4bc931d9312cde1b7bed50643db",
+      "bytes": 48
+    },
+    {
+      "path": "viewloom/alignment.py",
+      "sha256": "758e1c2a39a398b9990bdaf58cc90b0c0c13f39f4709ea24d85032966f5d21fa",
+      "bytes": 1402
+    },
+    {
+      "path": "viewloom/alignment_view.py",
+      "sha256": "9ab6683b50a28fc913d143663858d2ea70ec3b9c97f5dde70719fd9d77e89871",
+      "bytes": 9528
+    },
+    {
+      "path": "viewloom/app.py",
+      "sha256": "b06e78fefe31d8e9c0a06db9777e919be942ed03acf36364f6b85f2d3b04a130",
+      "bytes": 39720
+    },
+    {
+      "path": "viewloom/assets/check.svg",
+      "sha256": "d0902936619c0acb74dc8d142c87de2614d08b5a469a6936fbc0828797b3999f",
+      "bytes": 223
+    },
+    {
+      "path": "viewloom/composite.py",
+      "sha256": "7781ff68a3c1daadad5cd4545d7ab6c0903fc36e85dc159bd8a187ef935084e3",
+      "bytes": 11242
+    },
+    {
+      "path": "viewloom/compositing_ui.py",
+      "sha256": "24daaf0ee70b85996ae94f9ff6d3c56650cc14815c148baab5e29b0f4d80937f",
+      "bytes": 28452
+    },
+    {
+      "path": "viewloom/develop_ui.py",
+      "sha256": "767409f085072c03b67c734abd2a315b58d3bdd9d43a9f4263f34659a0df91d1",
+      "bytes": 21650
+    },
+    {
+      "path": "viewloom/development.py",
+      "sha256": "8bd90e1af1edae2b9b86e43fe4b3b0ef323d2252993e136e02a45ae53706d84f",
+      "bytes": 4812
+    },
+    {
+      "path": "viewloom/imaging.py",
+      "sha256": "8409881b74e744e37cf1e99a42122a0245eef5401b0298bfa1620ba936ee30e9",
+      "bytes": 3584
+    },
+    {
+      "path": "viewloom/project.py",
+      "sha256": "50cd7e088f68acf3141add9789416ab50e9907c4c4a3c44a5b512b49885fc313",
+      "bytes": 9125
+    },
+    {
+      "path": "viewloom/qt_runtime.py",
+      "sha256": "aed63314d94d83abcc8489ebf14088c71b00962d609fe123c5d11f5c49ace0e0",
+      "bytes": 775
+    },
+    {
+      "path": "viewloom/scroll_controls.py",
+      "sha256": "d496515733e86385e05fa49fb8adba13b3021edd4e7ff3730d6b25b133d4f9d9",
+      "bytes": 1501
+    },
+    {
+      "path": "viewloom/ui_groups.py",
+      "sha256": "db624c99a3a03a6531a1a5e00ef03176b6e232f326df6c248956deb8a2deae67",
+      "bytes": 289
+    },
+    {
+      "path": "viewloom/work_progress.py",
+      "sha256": "4ad46b8109c77f14d466dc4fbfb03c56616d22a33b45e26d3b24881b11da8088",
+      "bytes": 2470
+    }
+  ],
+  "note": "This manifest lists all prepared files except itself. It describes the initial transfer snapshot."
+}
